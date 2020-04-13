@@ -10,7 +10,8 @@
     "format": "prettier --write \"./src/*.ts\" \"./tests/*.ts\"",
     "format-typedefs": "prettier --write \"dist/*.d.ts\"",
     "build": "rollup --config ./rollup.config.js",
-    "test": "ts-node -P ../../config/tsconfig.node.json ../../node_modules/.bin/tape ./tests/**/*.test.ts*"
+    "test": "ts-node -P ../../config/tsconfig.node.json ../../node_modules/.bin/tape ./tests/**/*.test.ts*",
+    "prepare": "npm run build"
   },
   "files": [
     "dist/"
