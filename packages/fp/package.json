@@ -1,5 +1,5 @@
 {
-  "name": "@buenger/pipe",
+  "name": "@buenger/fp",
   "version": "1.0.0-alpha.3",
   "main": "dist/index.js",
   "module": "dist/index.es.js",

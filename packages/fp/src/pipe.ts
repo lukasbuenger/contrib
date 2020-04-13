@@ -1,8 +1,4 @@
-type NAry<TArgs extends any[], TReturn> = (
-  ...args: TArgs
-) => TReturn
-
-type Unary<TArg, TReturn> = (arg: TArg) => TReturn
+import { NAry, Unary } from './types'
 
 /**
  * Left-to-right function composition. Requires at least two arguments. Max. number of typed arguments: 9

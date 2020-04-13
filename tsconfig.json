@@ -1,8 +1,8 @@
 {
   "files": [],
   "references": [
-    { "path": "./packages/pipe" },
+    { "path": "./packages/fp" },
     { "path": "./packages/classname-props" },
-    { "path": "./packages/use-fieldset" }
+    { "path": "./packages/form-primitives" }
   ]
 }
