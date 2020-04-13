@@ -1,6 +1,6 @@
 {
   "name": "@buenger/classname-props",
-  "version": "1.0.0-alpha.3",
+  "version": "1.0.0-alpha.4",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -17,8 +17,8 @@
     "dist/"
   ],
   "devDependencies": {
-    "clsx": "^1.1.0",
-    "@buenger/fp": "^1.0.0-alpha.3"
+    "@buenger/fp": "^1.0.0-alpha.4",
+    "clsx": "^1.1.0"
   },
   "gitHead": "586407c63985982955525daa94166a6c783410e2"
 }
