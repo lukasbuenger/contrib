@@ -1,5 +1,5 @@
 {
-  "name": "@lukasbuenger/style-props",
+  "name": "@buenger/style-props",
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -18,6 +18,6 @@
     "clsx": "^1.1.0"
   },
   "devDependencies": {
-    "@lukasbuenger/pipe": "^0.1.0"
+    "@buenger/pipe": "^0.1.0"
   }
 }
