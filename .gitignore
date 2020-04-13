@@ -10,6 +10,8 @@ dist
 # misc
 .DS_Store
 
+package-lock.json
+yarn.lock
 
 # debug
 npm-debug.log*
