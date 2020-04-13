@@ -16,10 +16,8 @@
   "files": [
     "dist/"
   ],
-  "dependencies": {
-    "clsx": "^1.1.0"
-  },
   "devDependencies": {
+    "clsx": "^1.1.0",
     "@buenger/pipe": "^1.0.0-alpha.3"
   },
   "gitHead": "586407c63985982955525daa94166a6c783410e2"
