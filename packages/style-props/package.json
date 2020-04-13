@@ -4,6 +4,7 @@
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
+  "license": "MIT",
   "scripts": {
     "lint": "eslint ./src/*.ts ./tests/*.ts",
     "format": "prettier --write \"./src/*.ts\" \"./tests/*.ts\"",
@@ -20,5 +21,5 @@
   "devDependencies": {
     "@buenger/pipe": "^1.0.0-alpha.1"
   },
-  "gitHead": "e5f436ae5f80ca62b8b12d0070e02cd90aff8a39"
+  "gitHead": "3538b152573aa75881ddc1d6e8c18933409ff2c9"
 }
