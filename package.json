@@ -3,7 +3,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "private": true,
   "scripts": {
     "build": "lerna run build",
     "test": "lerna run test"
