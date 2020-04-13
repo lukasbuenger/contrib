@@ -1,5 +1,5 @@
 {
-  "name": "@lukasbuenger/use-fieldset",
+  "name": "@lukasbuenger/pipe",
   "version": "0.1.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -7,12 +7,9 @@
   "scripts": {
     "lint": "eslint ./src/*.ts ./tests/*.ts",
     "format": "prettier --write \"./src/*.ts\" \"./tests/*.ts\"",
-    "format-typedefs": "prettier --write \"dist/*.d.ts\"",
     "build": "rollup --config ./rollup.config.js",
+    "format-typedefs": "prettier --write \"dist/*.d.ts\"",
     "test": "ts-node -P ../../config/tsconfig.node.json ../../node_modules/.bin/tape ./tests/**/*.test.ts"
-  },
-  "peerDependencies": {
-    "react": ">=16.8"
   },
   "files": [
     "dist/"

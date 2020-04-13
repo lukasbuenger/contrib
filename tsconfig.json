@@ -1,0 +1,8 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./packages/pipe" },
+    { "path": "./packages/style-props" },
+    { "path": "./packages/use-fieldset" }
+  ]
+}

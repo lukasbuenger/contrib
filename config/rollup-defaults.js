@@ -3,12 +3,12 @@ import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
 
-const configure = (pkgName) => ({
-  input: `packages/${pkgName}/src/index.ts`,
+export const configure = () => ({
+  input: `src/index.ts`,
   external: ['react', 'react-dom'],
   plugins: [
     typescript({
-      tsconfig: `packages/${pkgName}/tsconfig.json`,
+      tsconfig: `tsconfig.json`,
     }),
     resolve(),
     commonjs(),
@@ -16,14 +16,12 @@ const configure = (pkgName) => ({
   ],
   output: [
     {
-      file: `packages/${pkgName}/dist/index.js`,
+      file: `dist/index.js`,
       format: 'cjs',
     },
     {
-      file: `packages/${pkgName}/dist/index.es.js`,
+      file: `dist/index.es.js`,
       format: 'esm',
     },
   ],
 })
-
-export default [configure('use-fieldset')]

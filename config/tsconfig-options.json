@@ -1,11 +1,14 @@
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "strict": true,
     "composite": true,
     "declaration": true,
     "removeComments": false,
     "module": "esnext",
+    "moduleResolution": "node",
     "target": "es5",
+    "jsx": "react",
     "noImplicitAny": true,
     "esModuleInterop": true,
     "lib": ["es2015", "es2015.iterable"]
