@@ -1,6 +1,6 @@
 {
   "name": "@buenger/style-props",
-  "version": "1.0.0-alpha.2",
+  "version": "1.0.0-alpha.3",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
@@ -19,7 +19,7 @@
     "clsx": "^1.1.0"
   },
   "devDependencies": {
-    "@buenger/pipe": "^1.0.0-alpha.2"
+    "@buenger/pipe": "^1.0.0-alpha.3"
   },
   "gitHead": "586407c63985982955525daa94166a6c783410e2"
 }
