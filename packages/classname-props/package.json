@@ -1,5 +1,5 @@
 {
-  "name": "@buenger/style-props",
+  "name": "@buenger/classname-props",
   "version": "1.0.0-alpha.3",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -11,7 +11,7 @@
     "format-typedefs": "prettier --write \"dist/*.d.ts\"",
     "build": "rollup --config ./rollup.config.js",
     "test": "ts-node -P ../../config/tsconfig.node.json ../../node_modules/.bin/tape ./tests/**/*.test.ts*",
-    "prepare": "npm run build"
+    "prepare": "npm run build && npm run format-typedefs"
   },
   "files": [
     "dist/"

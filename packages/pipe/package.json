@@ -11,7 +11,7 @@
     "build": "rollup --config ./rollup.config.js",
     "format-typedefs": "prettier --write \"dist/*.d.ts\"",
     "test": "ts-node -P ../../config/tsconfig.node.json ../../node_modules/.bin/tape ./tests/**/*.test.ts",
-    "prepare": "npm run build"
+    "prepare": "npm run build && npm run format-typedefs"
   },
   "files": [
     "dist/"
