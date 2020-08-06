@@ -208,8 +208,11 @@ export function pipe<
   output: Unary<JReturn, TResult>,
 ): NAry<TArgs, TResult>
 
-export function pipe(first: Function, ...fns: Function[]) {
-  return (...args: any[]) => {
+export function pipe(
+  first: (...args: any[]) => any,
+  ...fns: ((arg: any) => any)[]
+) {
+  return (...args: any[]): any => {
     return fns.reduce(
       (acc: any, fn) => fn(acc),
       first(...args),

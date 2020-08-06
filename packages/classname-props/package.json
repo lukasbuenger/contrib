@@ -6,8 +6,8 @@
   "types": "dist/index.d.ts",
   "license": "LICENSE",
   "scripts": {
-    "lint": "eslint ./src/*.ts ./tests/*.ts",
-    "format": "prettier --write \"./src/*.ts\" \"./tests/*.ts\"",
+    "lint": "eslint ./src/*.ts ./tests/*.tsx",
+    "format": "prettier --write \"./src/*.ts\" \"./tests/*.tsx\"",
     "format-typedefs": "prettier --write \"dist/*.d.ts\"",
     "build": "rollup --config ./rollup.config.js",
     "test": "ts-node -P ../../config/tsconfig.node.json ../../node_modules/.bin/tape ./tests/**/*.test.ts*",
