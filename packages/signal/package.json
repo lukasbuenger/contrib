@@ -1,0 +1,19 @@
+{
+  "name": "@buenger/signal",
+  "version": "1.0.0-alpha.4",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "license": "LICENSE",
+  "scripts": {
+    "lint": "eslint ./src/*.ts ./tests/*.ts",
+    "format": "prettier --write \"./src/*.ts\" \"./tests/*.ts\"",
+    "build": "rollup --config ./rollup.config.js",
+    "format-typedefs": "prettier --write \"dist/*.d.ts\"",
+    "test": "ts-node -P ../../config/tsconfig.node.json ../../node_modules/.bin/tape ./tests/**/*.test.ts",
+    "prepare": "npm run build && npm run format-typedefs"
+  },
+  "files": [
+    "dist/"
+  ]
+}
