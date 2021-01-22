@@ -14,7 +14,7 @@
     "prepare": "npm run build && npm run format-typedefs"
   },
   "peerDependencies": {
-    "react": ">=16.8"
+    "react": ">=17.0"
   },
   "files": [
     "dist/"

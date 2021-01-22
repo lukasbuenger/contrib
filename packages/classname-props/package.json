@@ -18,7 +18,7 @@
   ],
   "devDependencies": {
     "@buenger/fp": "^1.0.0-alphha.8",
-    "clsx": "^1.1.0"
+    "clsx": "^1.1.1"
   },
   "gitHead": "586407c63985982955525daa94166a6c783410e2"
 }
