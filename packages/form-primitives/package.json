@@ -1,6 +1,6 @@
 {
   "name": "@buenger/form-primitives",
-  "version": "1.0.0-alphha.8",
+  "version": "1.0.0-alpha.9",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
